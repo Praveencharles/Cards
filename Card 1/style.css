@@ -1,0 +1,116 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+}
+
+.card{
+    margin: 0px auto;
+    width: 450px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0px 0px 10px 5px rgba(66, 66, 66, 0.15);
+    border-radius: 20px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.card-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.card-head button{
+    background: transparent;
+    border: none;
+    padding: 5px;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card-body{
+    padding-top: 30px;
+    color: #777;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-footer .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+
+.card-footer .icons i{
+    color: #777;
+}
+
+.card-footer button{
+    background: black;
+    border: 2px solid black;
+    color: #fff;
+    padding: 10px 15px ;
+    border-radius: 2rem;
+}
+
+.card-footer button:hover{
+    background: #fff;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: #fff;
+}
+
+.light button{
+    background-color: #fff;
+    color: black;
+    border: 2px solid #fff;
+}
+
+.light button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.card:hover{
+    transform: translate(-6px,-6px);
+    transition: 0.5s ease-out all;
+}
+
+
+
