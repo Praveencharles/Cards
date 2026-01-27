@@ -97,4 +97,5 @@ img{
 .card:hover, .card-bac:hover{
     transform: translateY(-10px);
     transition: 0.3s ease all;
+
 }
